@@ -1,0 +1,122 @@
+{
+    "CO": {
+        "gas_column": "CO(GT)",
+        "model_file": "CO_model.pkl",
+        "episodes_file": "CO_episodes.csv",
+        "feature_columns": [
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "T",
+            "RH",
+            "AH",
+            "Hour",
+            "DayOfWeek",
+            "Month",
+            "Lag_1",
+            "Lag_2",
+            "Lag_3",
+            "Lag_24",
+            "Rolling_Mean_3"
+        ],
+        "threshold": 1.2778,
+        "high_pollution_level": 2.9,
+        "metrics": {
+            "mae": 0.2572,
+            "rmse": 0.3816,
+            "r2": 0.913
+        }
+    },
+    "C6H6": {
+        "gas_column": "C6H6(GT)",
+        "model_file": "C6H6_model.pkl",
+        "episodes_file": "C6H6_episodes.csv",
+        "feature_columns": [
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "T",
+            "RH",
+            "AH",
+            "Hour",
+            "DayOfWeek",
+            "Month",
+            "Lag_1",
+            "Lag_2",
+            "Lag_3",
+            "Lag_24",
+            "Rolling_Mean_3"
+        ],
+        "threshold": 0.0646,
+        "high_pollution_level": 14.7,
+        "metrics": {
+            "mae": 0.0147,
+            "rmse": 0.0629,
+            "r2": 0.9999
+        }
+    },
+    "NOx": {
+        "gas_column": "NOx(GT)",
+        "model_file": "NOx_model.pkl",
+        "episodes_file": "NOx_episodes.csv",
+        "feature_columns": [
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "T",
+            "RH",
+            "AH",
+            "Hour",
+            "DayOfWeek",
+            "Month",
+            "Lag_1",
+            "Lag_2",
+            "Lag_3",
+            "Lag_24",
+            "Rolling_Mean_3"
+        ],
+        "threshold": 160.3019,
+        "high_pollution_level": 267.5,
+        "metrics": {
+            "mae": 55.859,
+            "rmse": 79.5044,
+            "r2": 0.8267
+        }
+    },
+    "NO2": {
+        "gas_column": "NO2(GT)",
+        "model_file": "NO2_model.pkl",
+        "episodes_file": "NO2_episodes.csv",
+        "feature_columns": [
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "T",
+            "RH",
+            "AH",
+            "Hour",
+            "DayOfWeek",
+            "Month",
+            "Lag_1",
+            "Lag_2",
+            "Lag_3",
+            "Lag_24",
+            "Rolling_Mean_3"
+        ],
+        "threshold": 38.4823,
+        "high_pollution_level": 126.0,
+        "metrics": {
+            "mae": 20.0463,
+            "rmse": 26.0815,
+            "r2": 0.7506
+        }
+    }
+}
